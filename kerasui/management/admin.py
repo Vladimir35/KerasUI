@@ -58,7 +58,7 @@ class TestForm(forms.Form):
 
         
 
-        messages.success(request,'Your image is'+result)
+        messages.success(request,'Your image is '+result)
 
             
 
