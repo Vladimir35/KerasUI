@@ -6,6 +6,7 @@ from django.conf import settings
 #AI
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
+from keras.layers import Activation
 from keras.layers import Conv2D, MaxPooling2D
 from keras.layers.normalization import BatchNormalization
 from PIL import Image
